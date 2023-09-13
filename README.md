@@ -1,1 +1,1 @@
-# Appollo-Kotlin-QraphQL-Jetpack
+# Apollo-Kotlin-QraphQL-Jetpack
