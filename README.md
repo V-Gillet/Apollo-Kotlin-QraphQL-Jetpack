@@ -4,34 +4,24 @@
 
 ```mermaid
 %%{init: { 'logLevel': 'debug', 'theme': 'base', 'gitGraph': {'showBranches': true, 'showCommitLabel':true}} }%%
-    gitGraph
-    commit
-    commit
-    branch dev
-    commit
-    commit
-    commit
-    checkout dev
-    commit
-    commit
-    branch feature
-    commit
-    commit
-    checkout dev
-    commit
-    commit
-    checkout stage
-    commit
-    commit
-    merge dev
-    commit
-    commit
-    checkout main
-    commit
-    commit
-    merge stage
-    commit
-    commit
-    merge dev tag:"release 1.8.1"
+      gitGraph
+      commit
+      branch stage order: 1
+      branch dev order: 2
+      branch feature order: 3
+      commit
+      commit
+      commit
+      checkout dev
+      merge feature
+      checkout feature
+      commit
+      commit
+      checkout dev
+      merge feature
+      checkout stage
+      merge dev
+      checkout main
+      merge dev tag:"release 1.8.1"
 
 ```
