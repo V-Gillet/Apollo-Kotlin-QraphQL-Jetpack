@@ -10,12 +10,12 @@
       commit
       branch stage order: 2
       commit
-      commit
-      commit
       branch feature order: 3
       commit
       commit
       commit
+      checkout stage
+      merge main
       checkout dev
       merge feature
       checkout feature
