@@ -6,9 +6,9 @@
 %%{init: { 'logLevel': 'debug', 'theme': 'base', 'gitGraph': {'showBranches': true, 'showCommitLabel':true}} }%%
       gitGraph
       commit
-      branch dev order: 1
+      branch destagev order: 1
       commit
-      branch stage order: 2
+      branch dev order: 2
       commit
       branch feature order: 3
       commit
