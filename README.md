@@ -7,22 +7,17 @@
       gitGraph
       commit
       branch stage order: 1
-      commit
       branch dev order: 2
-      commit
-      branch feature order: 3
-      commit
-      commit
-      commit
-      checkout stage
-      merge main
       checkout dev
-      merge feature
+      branch feature order: 3
       checkout feature
       commit
       commit
+      commit
       checkout dev
       merge feature
+      checkout stage
+      merge dev
       checkout main
       merge dev tag:"release 1.2.3"
 
