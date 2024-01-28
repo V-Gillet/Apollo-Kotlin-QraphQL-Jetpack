@@ -20,8 +20,8 @@
       checkout dev
       merge feature
       checkout stage
-      merge dev
-      checkout main
       merge dev tag:"release 1.8.1"
+      checkout main
+      merge stage tag:"release 1.8.1"
 
 ```
